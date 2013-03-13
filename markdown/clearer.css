@@ -1,0 +1,131 @@
+/**
+ * 1. reset
+ * 2. 标题
+ * 3. 段落
+ * 4. 列表
+ * 5. 表格
+ * 6. 表单
+ * 7. 链接
+ * 8. 图片
+ * 9. 格式化
+ *      1. 引用
+ *      2. 代码
+ *      3. 强调
+ *
+ * */
+
+
+/* rest */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+}
+body {
+    padding: 2em;
+    color: #333;
+	background: #fff;
+}
+body, button, input, select, textarea {
+    font:14px/1.5 tahoma, arial, "Hiragino Sans GB", \5b8b\4f53;;
+}
+
+/* 标题 */
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.5em 0 0.5em;
+    color: #555;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px double #cdcdcd;
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    color: #C44D4D;
+    font-size: 1.2em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+/* 段落 */
+p {
+    margin-bottom: 1em;
+}
+
+/* 列表 */
+ul, ol, dl{
+    margin: 1em 0 2em 4em;
+}
+li ul, li ol, dl dl, li dl{
+    margin: 0.75em 0 1em 2em; 
+}
+
+a {
+    color: #04D; 
+}
+
+
+/* 表格 */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #f1f1f1;
+}
+
+/* 图片 */
+img {
+	border: 0;
+}
+
+/* 格式化元素 */
+pre, code{
+    font-family: "Courier New", Courier, monospace;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+pre {
+    margin: 1.5em 0 2em;
+    padding: 1em;
+    color: #333;
+    border: 1px dotted  #ccc;
+    background-color: #FFF9ED;
+    overflow: auto;
+}
+
+blockquote {
+    margin: 1.5em 0 2em;
+    padding: 1em;
+    border-left: 3px solid #ccc;
+    background-color: #FFF9ED;
+}
+
+code {
+    color: #080;
+}
+
+strong {
+    background-color: #fee9cc;
+    padding: 2px 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
